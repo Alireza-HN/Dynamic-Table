@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jQuery - Uncompressed v3.4.1.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- -------------------------------------- top panel ----------------------------------- -->
+
+        <div>
+
+            <table id="panel">
+
+                <!-- ******************* headers' row ******************** -->
+
+                <tr>
+                    <!-- cancel-button column -->
+                    <th id="cancelBtnCol"></th>
+
+                    <th>UID</th>
+                    <th>City</th>
+                    <th>LastName</th>
+                    <th>FirstName</th>   
+                </tr>
+
+                
+                <!-- ******************* inputs' row ******************** -->
+
+                <tr>
+                    <!-- cancel-button -->
+                    <td id="cancelAdd" class='btn cancelBtn'>Cancel</td>
+
+                    <td id="uidContainer">
+                        <input type="text" id="uid">
+                    </td>
+
+                    <td id="cityContainer">
+                        <input type="text" id="city">
+                    </td>
+
+                    <td id="lnameContainer">
+                        <input type="text" id="lname">
+                    </td>
+
+                    <td id="fnameContainer">
+                        <input type="text" id="fname">
+                    </td>
+                 
+                    <td id="addToTable" class='btn'>Add to Table</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- -------------------------------------- main table ----------------------------------- -->
+
+        <!-- ******************* main table ******************** -->
+
+        <table id="mainTable">
+
+            <tr id="first-line">
+
+                <!-- delete-button column -->
+                <th id="delBtnCol"></th>
+    
+                <th>UID</th>    
+                <th>City</th>    
+                <th>LastName</th>    
+                <th>FirstName</th>   
+
+                <!-- edit-button column -->
+                <th id="editBtnCol"></th>
+
+            </tr>
+   
+        </table>
+
+
+        <!-- ******************* 'Add' button ******************** -->
+
+        <div id="addBtn">
+            <p>Add</p>
+        </div>
+        
+    </div>
+
+
+</body>
+
+
+</html>
